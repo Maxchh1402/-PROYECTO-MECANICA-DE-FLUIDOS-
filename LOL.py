@@ -295,8 +295,8 @@ def LOL():
        
       #HARDY CROSS
       
-
-      st.write("Cálculo de los caudales reales:")
+      st.markdown(f"<h5 style='text-align: center;'> Cálculo de los caudales reales: </h5>", unsafe_allow_html=True)
+      st.write ()
       st.write("Para el cálculo de los nuevos caudales se realiza un proceso iterativo donde se incluye ajustar los valores iniciales para caudal a través de una corrección gracias al cálculo de los hL (pérdidas del tubo correspondiente), igualando la suma de aquellos a 0.")
       
 

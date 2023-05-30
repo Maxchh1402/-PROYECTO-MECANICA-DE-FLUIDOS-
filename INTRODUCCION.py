@@ -15,7 +15,7 @@ def INTRODUCCION():
 
     st.subheader('Hardy Cross')
     st.write("Este método consiste en el análisis de un sistema de tuberías empleando procedimiento de iteraciones. Para la aplicación de este método se requiere realizar un balance global de masa y un balance de pérdidas en cada nodo y circuito respectivamente, tomando en cuenta que el balance de pérdidas en los circuitos esta igualado a cero.")
-    st.markdown("La biblioteca está ajustada y deseñada con el fin determinar la presión, HGL diámetro nominal, interno y tasas de flujo. Como se mostrara a continuación en la sección **PROGRAMA**.")
+    st.markdown("La biblioteca está ajustada y deseñada con el fin determinar la presión, HGL diámetro nominal, interno y tasas de flujo. Como se mostrará a continuación en la sección **PROGRAMA**.")
     
     st.markdown(f"<h5 style='text-align: center;'> Balance global de masa </h5>", unsafe_allow_html=True)
     st.write ()
