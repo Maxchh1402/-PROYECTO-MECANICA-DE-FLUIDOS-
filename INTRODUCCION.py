@@ -14,7 +14,7 @@ def INTRODUCCION():
     st.write("Los distintos caminos por lo que fluirá el agua constan de secciones de tubo delimita por una letra mayúscula, así como también te numerosas válvulas de compuerta y codo de 90°. El sistema se muestra en un plano isométrico donde existen tres circuitos, en los que se supondrá ciertos sentidos iniciales de flujos, como estos mismos para el cálculo exacto de ellos, a partir del método de Hardy Cross y los balances de masa.")
 
     st.subheader('Hardy Cross')
-    st.write("Este método consiste en el análisis de un sistema de tuberías empleando procedimiento de iteraciones. Para la aplicación de este método se requiere realizar un balance global de masa y un balance de pérdidas en cada nodo y circuito respectivamente, tomando en cuenta que el blaance de pérdidas en los circuitos esta igualado a cero.")
+    st.write("Este método consiste en el análisis de un sistema de tuberías empleando procedimiento de iteraciones. Para la aplicación de este método se requiere realizar un balance global de masa y un balance de pérdidas en cada nodo y circuito respectivamente, tomando en cuenta que el balance de pérdidas en los circuitos esta igualado a cero.")
     st.markdown("La biblioteca está ajustada y deseñada con el fin determinar la presión, HGL diámetro nominal, interno y tasas de flujo. Como se mostrara a continuación en la sección **PROGRAMA**.")
     
     st.markdown('_Balance global de masa._')
