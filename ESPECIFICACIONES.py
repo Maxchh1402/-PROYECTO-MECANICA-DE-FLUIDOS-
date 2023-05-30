@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from PIL import Image
 
 def ESPECIFICACIONES ():
 
@@ -10,6 +11,8 @@ def ESPECIFICACIONES ():
     st.write ()
     st.markdown(f"<h3    style='text-align: center;'> Rugosidad </h3>", unsafe_allow_html=True)
     st.write ("Para los tubos y las tuberías disponibles comercialmente, el valor de diseño de la rugosidad promedio ε de la pared de la tubería se ha determinado como indica la tabla 8.2 del libro de Mott.")
+    image = Image.open('RUGOSIDAD.jpg')
+    st.image(image, width = 400)
     st.markdown(f"<h3    style='text-align: center;'> ¿Por qué tubería de acero? </h3>", unsafe_allow_html=True)
     st.write ()
 
