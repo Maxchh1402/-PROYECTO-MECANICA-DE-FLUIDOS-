@@ -17,8 +17,9 @@ def INTRODUCCION():
     st.write("Este método consiste en el análisis de un sistema de tuberías empleando procedimiento de iteraciones. Para la aplicación de este método se requiere realizar un balance global de masa y un balance de pérdidas en cada nodo y circuito respectivamente, tomando en cuenta que el balance de pérdidas en los circuitos esta igualado a cero.")
     st.markdown("La biblioteca está ajustada y deseñada con el fin determinar la presión, HGL diámetro nominal, interno y tasas de flujo. Como se mostrara a continuación en la sección **PROGRAMA**.")
     
-    st.markdown('_Balance global de masa._')
-    
+    st.markdown(f"<h5 style='text-align: center;'> Balance global de masa </h5>", unsafe_allow_html=True)
+    st.write ()
+
     col1, col2 = st.columns(2)
     col1.subheader('Ecuaciones de Balance')
     col1.write('  ')
