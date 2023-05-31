@@ -32,7 +32,7 @@ def INTRODUCCION():
     image_bg = "https://i.pinimg.com/564x/9e/51/ad/9e51ad004a6af9462cdcf6f3f8ec1464.jpg"
     col2.image(image_bg, width=220, caption="  ")
     
-    col2.subheader('Balance Pérdidas')
+    col1.subheader('Balance Pérdidas')
     col2.write(' ')
     image = Image.open('BALANCEP.jpg')
     st.image(image, width = 400)
