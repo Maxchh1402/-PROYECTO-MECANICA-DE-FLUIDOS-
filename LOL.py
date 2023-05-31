@@ -6,7 +6,7 @@ import pandas as pd
 
 def LOL():
 
-    from PIL import Image
+    
       st.write()
       st.markdown("<h3 style='text-align: center;'>RED DE TUBERÍAS</h3>", unsafe_allow_html=True)
       st.write()
