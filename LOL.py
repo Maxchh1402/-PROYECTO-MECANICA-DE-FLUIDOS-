@@ -11,7 +11,7 @@ def LOL():
       st.markdown("<h3 style='text-align: center;'>RED DE TUBERÍAS</h3>", unsafe_allow_html=True)
       st.write()
       image = Image.open('ROJO.jpg')
-      st.image(image)
+      st.image(image, width = 400)
      
       st.write("Aquí, se proporciona un croquis isométrico de la red de tuberías como ayuda visual."
             " Sin embargo, se necesitan algunas especificaciones para estas tuberías y "
