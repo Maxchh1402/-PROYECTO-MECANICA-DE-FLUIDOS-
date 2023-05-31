@@ -12,7 +12,7 @@ def LOL():
       st.write()
       
       imaged = Image.open('DIAGRAMA.jpg')
-      st.image(imaged, width=600, caption='Centered Image')
+      st.image(imaged, width=700, caption='(Cada color indica un flujo diferente.)')
     
       st.write("Aquí, se proporciona un croquis isométrico de la red de tuberías como ayuda visual."
             " Sin embargo, se necesitan algunas especificaciones para estas tuberías y "
